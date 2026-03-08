@@ -1,13 +1,14 @@
 .contenedor{
   position: relative;
   display: inline-block;
+  overflow: hidden;
   width: 100%;
 }
 
 .contenedor img{
-  width: 100%;
+  width: 4000px;
   height: 80px;
-  display: block;
+  transform: translate(-100px);
 }
 
 .contenedor h1{
@@ -16,4 +17,22 @@
   left: 50%;
   transform: translate(-50%, -50%);
   color: black;
+}
+
+#bacalaotexto {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+}
+
+#explicacion {
+  color: white;
+  transform: translate(610px, -223px);
+  max-width: 500px;
+}
+
+#imagenbacalao {
+  height: auto;
+  width: 300px;
+  transform: translate(300px);
 }

@@ -1,3 +1,5 @@
+/* DISEÑO BANNER */
+
 .contenedor{
   position: relative;
   display: inline-block;
@@ -18,6 +20,8 @@
   transform: translate(-50%, -50%);
   color: black;
 }
+
+/*ARROZ CON BACALAO DISEÑO*/
 
 #bacalaotexto {
   color: white;
@@ -42,6 +46,8 @@
   margin-bottom: -150px;
 }
 
+/*CALDERETA DE CERDO DISEÑO */
+
 #imagencaldereta {
   height: auto;
   width: 300px;
@@ -60,6 +66,12 @@
   transform: translate(610px, -195px);
   max-width: 500px;
 }
+
+#grupocaldereta {
+  margin-bottom: -50px;
+}
+
+/*CHAFAINA DE CORDERO DISEÑO*/
 
 #chafainatexto {
   color: white;
@@ -80,6 +92,36 @@
   transform: translate(300px);
 }
 
-#grupocaldereta {
-  margin-bottom: -50px;
+#grupochafaina {
+  margin-bottom: -100px;
+}
+
+/*CONEJO AL AJILLO DISEÑO*/
+
+#conejotexto {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  font-style: italic;
+}
+
+#imagenconejo {
+  height: auto;
+  width: 300px;
+  transform: translate(300px);
+}
+
+#explicacionconejo {
+  color: white;
+  transform: translate(610px, -215px);
+  max-width: 500px;
+}
+
+
+
+/* DISEÑO WEB ARROZ CON BACALAO */
+
+#botondeinicio {
+  width: 200px;
+  height: 90px;
 }

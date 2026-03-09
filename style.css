@@ -23,6 +23,7 @@
   color: white;
   font-size: 30px;
   text-align: center;
+  font-style: italic;
 }
 
 #explicacion {
@@ -35,4 +36,50 @@
   height: auto;
   width: 300px;
   transform: translate(300px);
+}
+
+#grupobacalao {
+  margin-bottom: -150px;
+}
+
+#imagencaldereta {
+  height: auto;
+  width: 300px;
+  transform: translate(300px);
+}
+
+#calderetatexto {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  font-style: italic;
+}
+
+#explicacioncaldereta {
+  color: white;
+  transform: translate(610px, -195px);
+  max-width: 500px;
+}
+
+#chafainatexto {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  font-style: italic;
+}
+
+#explicacionchafaina {
+  color: white;
+  transform: translate(610px, -256px);
+  max-width: 500px;
+}
+
+#imagenchafaina {
+  height: auto;
+  width: 300px;
+  transform: translate(300px);
+}
+
+#grupocaldereta {
+  margin-bottom: -50px;
 }

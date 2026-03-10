@@ -19,6 +19,7 @@
   left: 50%;
   transform: translate(-50%, -50%);
   color: black;
+  font-family: sans-serif;
 }
 
 /*ARROZ CON BACALAO DISEÑO*/
@@ -27,13 +28,14 @@
   color: white;
   font-size: 30px;
   text-align: center;
-  font-style: italic;
+  font-family: sans-serif;
 }
 
 #explicacion {
   color: white;
   transform: translate(610px, -223px);
   max-width: 500px;
+  font-family: sans-serif;
 }
 
 #imagenbacalao {
@@ -58,15 +60,16 @@
   color: white;
   font-size: 30px;
   text-align: center;
-  font-style: italic;
+  font-family: sans-serif;
 }
-
+/* LA EXPLICACION DE LA COMIDA */
 #explicacioncaldereta {
   color: white;
   transform: translate(610px, -195px);
   max-width: 500px;
+  font-family: sans-serif;
 }
-
+/* PARA ORGANIZAR EL MARGEN ENTRE PARRAFOS */
 #grupocaldereta {
   margin-bottom: -50px;
 }
@@ -77,21 +80,22 @@
   color: white;
   font-size: 30px;
   text-align: center;
-  font-style: italic;
+  font-family: sans-serif;
 }
-
+/* LA EXPLICACION DE LA COMIDA */
 #explicacionchafaina {
   color: white;
   transform: translate(610px, -256px);
   max-width: 500px;
+  font-family: sans-serif;
 }
-
+/* LA IMAGEN DE LA COMIDA*/
 #imagenchafaina {
   height: auto;
   width: 300px;
   transform: translate(300px);
 }
-
+/* PARA ORGANIZAR EL MARGEN ENTRE PARRAFOS */
 #grupochafaina {
   margin-bottom: -100px;
 }
@@ -102,26 +106,109 @@
   color: white;
   font-size: 30px;
   text-align: center;
-  font-style: italic;
+  font-family: sans-serif;
 }
-
+/*lA IMAGEN DE LA COMIDA */
 #imagenconejo {
   height: auto;
   width: 300px;
   transform: translate(300px);
 }
-
+/* LA EXPLICACION DE LA COMIDA */
 #explicacionconejo {
   color: white;
   transform: translate(610px, -215px);
   max-width: 500px;
+  font-family: sans-serif;
 }
 
 
 
 /* DISEÑO WEB ARROZ CON BACALAO */
 
-#botondeinicio {
-  width: 200px;
-  height: 90px;
+.boton-inicio {
+    text-decoration: none; /* Quita el subrayado predeterminado */
+    color: white; /* Color del texto */
+    font-size: 24px;
+    font-family: sans-serif;
+    position: relative; /* Necesario para posicionar la raya */
+    padding-bottom: 5px; /* Espacio entre el texto y la raya */
+    cursor: pointer;
+}
+
+/* La raya debajo, oculta inicialmente */
+.boton-inicio::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px; /* Grosor de la raya */
+    bottom: 0;
+    left: 0;
+    background-color: white; /* Color de la raya */
+    transform: scaleX(0); /* Hace la raya invisible (escala 0) */
+    transition: transform 0.3s ease; /* Efecto de animación */
+}
+
+/* Efecto al pasar el ratón (hover) */
+.boton-inicio:hover::after {
+    transform: scaleX(1); /* Muestra la raya completa (escala 1) */
+}
+
+/* DISEÑO IMAGEN ARROZ */
+
+#imagenbacalao {
+  width: 300px;
+  height: auto;
+}
+
+/* DISEÑO TITULO ARROZ */
+
+#tituloarroz {
+  color: white;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+/* DISEÑO PALABRA RECETA */
+
+#textoreceta {
+  color: white;
+  font-family: sans-serif;
+  font-size: 20px;
+  transform: translate(620px, -225px);
+}
+
+#recetabacalao {
+  color: white;
+  font-family: sans-serif;
+  max-width: 400px;
+  transform: translate(620px, -240px);
+}
+
+#parrafouno {
+  margin: 5px 0 5px 0;
+}
+
+#parrafodos {
+  margin: 5px 0 5px 0;
+}
+
+#parrafotres {
+  margin: 0 0 5px 0;
+}
+
+/* DISEÑO RECETA */
+
+#ingredientes {
+  color: white;
+  font-size: 20px;
+  font-family: sans-serif;
+  transform: translate(300px, -250px);
+}
+
+#listaingredientes {
+  color: white;
+  font-size: 20px;
+  font-family: sans-serif;
+  transform: translate(300px, -250px);
 }
